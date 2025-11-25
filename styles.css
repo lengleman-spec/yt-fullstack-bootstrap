@@ -1,3 +1,13 @@
+:root {
+  --bs-body-color: #504f4f;
+  --bs-primary: #3636e9;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+}
+
 .min-height-feature-img {
   height: 300px; /* Sets min height b/c bootstrap has no min-height class. This ensures all cards are the same height */
 }
